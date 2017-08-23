@@ -5,9 +5,9 @@ http://arxiv.org/abs/1603.02844
 This implementation currently only supports binary deep hash.
 
 # TODO
-1. Add multiclass support.
-2. Make code clean.
-3. Add more base networks.
+- [ ] Add multiclass support.
+- [ ] Make code clean.
+- [ ] Add more base networks.
 
 # Usage
 ## Train
