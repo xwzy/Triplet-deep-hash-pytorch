@@ -14,7 +14,7 @@ from dataset import DATASET
 __all__ = ['ResNet', 'resnet101']
 
 model_urls = {
-    'resnet101': 'http://165.227.5.133/resnet101-5d3b4d8f.pth',
+    'resnet101': 'https://download.pytorch.org/models/resnet101-5d3b4d8f.pth',
 }
 
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
