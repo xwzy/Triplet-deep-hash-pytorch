@@ -31,30 +31,12 @@ class DATASET(data.Dataset):
     def __getitem__(self, index):
         if self.train:
             imgx1, imgx2, imgy = self.train_data[0][index], self.train_data[1][index], self.train_data[2][index]
-            # img_pos1 = Image.fromarray(imgx1.numpy(), mode='RGB')
-            # img_pos2 = Image.fromarray(imgx2.numpy(), mode='RGB')
-            # img_neg = Image.fromarray(imgy.numpy(), mode='RGB')
-            # img1 = list(img_pos1.getdata())
-            # img2 = list(img_pos2.getdata())
-            # img3 = list(img_neg.getdata())
-
             imgx1 = imgx1.view(224, 224, 3).permute(2, 1, 0).float()
             imgx2 = imgx2.view(224, 224, 3).permute(2, 1, 0).float()
             imgy = imgy.view(224, 224, 3).permute(2, 1, 0).float()
-
-            # imgx1 = torch.FloatTensor(imgx1.numpy()).view(28, 28, 3).permute(2, 1, 0)
-            # imgx2 = torch.FloatTensor(imgx2.numpy()).view(28, 28, 3).permute(2, 1, 0)
-            # imgy = torch.FloatTensor(imgy.numpy()).view(28, 28, 3).permute(2, 1, 0)
-
-
-            # print(img1)
-            # print(img2)
-            # print(img3)
             return imgx1, imgx2, imgy
         else:
             img, target = self.test_data[index], self.test_labels[index]
-            # img = Image.fromarray(img.numpy(), mode='RGB')
-            # img = list(img.getdata())
             img = torch.ByteTensor(img).view(224, 224, 3).permute(2, 1, 0)
             return img
 
@@ -92,16 +74,6 @@ class DATASET(data.Dataset):
         print('Process Image Done!')
 
 
-# def get_int(b):
-#     return int(codecs.encode(b, 'hex'), 16)
-#
-#
-# def parse_byte(b):
-#     if isinstance(b, str):
-#         return ord(b)
-#     return b
-
-
 def read_image_file(path, number):
     files_path = os.listdir(path)
     print(files_path)
@@ -124,8 +96,6 @@ def read_image_file(path, number):
         images.append(img)
     return torch.ByteTensor(images).view(-1, 224, 224, 3)
 
-
-# .permute(0, 3, 1, 2)
 
 def read_image_file_test(pathPos, pathNeg, number):
     res = []

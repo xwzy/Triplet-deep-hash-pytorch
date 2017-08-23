@@ -15,18 +15,6 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
 
-# img=mpimg.imread('test/a.png')
-# plt.subplot(221);
-# plt.imshow(img, cmap ='gray');
-# plt.subplot(222);
-# plt.imshow(img, cmap ='gray');
-# plt.subplot(223);
-# plt.imshow(img, cmap ='gray');
-# plt.subplot(224);
-# plt.imshow(img, cmap ='gray');
-# plt.show()
-
-
 def displayImage(img_path):
     img = mpimg.imread(img_path)
     plt.imshow(img, cmap='gray')
