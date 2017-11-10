@@ -4,12 +4,12 @@ http://arxiv.org/abs/1603.02844
 
 This implementation currently only supports binary deep hash.
 
-#DEMO
+# DEMO
 Deep hash for "A", "B".
-![](a.jpeg)
-![](aa.jpeg)
-![](b.jpeg)
-![](bb.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/a.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/aa.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/b.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/bb.jpeg)
 
 # TODO
 - [ ] Add multiclass support.
