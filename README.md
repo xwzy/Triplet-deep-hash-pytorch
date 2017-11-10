@@ -4,6 +4,13 @@ http://arxiv.org/abs/1603.02844
 
 This implementation currently only supports binary deep hash.
 
+#DEMO
+Deep hash for "A", "B".
+![](a.jpeg)
+![](aa.jpeg)
+![](b.jpeg)
+![](bb.jpeg)
+
 # TODO
 - [ ] Add multiclass support.
 - [ ] Make code clean.
