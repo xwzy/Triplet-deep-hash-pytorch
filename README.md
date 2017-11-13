@@ -4,7 +4,7 @@ http://arxiv.org/abs/1603.02844
 
 
 # Update 2017.11.13
-Reorganize whole project.
+Refactor this project.
 
 
 # DEMO
