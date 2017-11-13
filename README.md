@@ -11,10 +11,10 @@ Use code in https://github.com/kentsommer/keras-inceptionV4 to extarct feature.
 
 # DEMO
 Deep hash for "A", "B".
-![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/a.jpeg =50)
-![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/aa.jpeg =200)
-![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/b.jpeg =50)
-![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/bb.jpeg =200)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/a.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/aa.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/b.jpeg)
+![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/bb.jpeg)
 
 # TODO
 - [x] Add multiclass support.
