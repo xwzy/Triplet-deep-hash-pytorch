@@ -3,6 +3,7 @@ pytorch implementation of "Fast Training of Triplet-based Deep Binary Embedding 
 http://arxiv.org/abs/1603.02844
 
 This implementation currently only supports binary deep hash.
+
 Improvements will be updated soon in 2017-12.
 
 # DEMO
