@@ -2,11 +2,10 @@
 pytorch implementation of "Fast Training of Triplet-based Deep Binary Embedding Networks".
 http://arxiv.org/abs/1603.02844
 
-This implementation currently only supports binary deep hash.
 
-Improvements will be updated soon in 2017-12.
+#Update 2017.11.13
+Reorganize whole project.
 
-If you want contribute, feel free to pull request.
 
 # DEMO
 Deep hash for "A", "B".
@@ -16,17 +15,19 @@ Deep hash for "A", "B".
 ![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/bb.jpeg)
 
 # TODO
-- [ ] Add multiclass support.
-- [ ] Make code clean.
+- [x] Add multiclass support.
+- [x] Make code clean.
 - [ ] Add more base networks.
+- [ ] Add query code for new project.
 
 # Usage
 ## Train
-1. Create folder *pos1*, *pos2*, *neg*, and put two category pictures in 3 folder.
-2. Run `extractFeatures.py` to extract feature for future use.
-3. Run `hashNet.py` to train your triplet deep hash network.
+1. Put training pictures in *data/train/[category-id]*, test pictures in *data/test*.
+2. Run `src/extract_feature/batch_extarct_test.py` and `src/extract_feature/batch_extract_train.py` to extract feature for future use.
+3. Run `src/hash_net/generate_random_dataset.py` to generate random training data.
+4. Run `src/hash_net/hashNet.py` to train your triplet deep hash network.
 
 
-## Test
-1. Create folder *test*, and create *pos*, *neg* in *test* with pictures that you want to retrive.
-2. Run `testQue.py` to query your picture set.
+~~## Test~~
+~~1. Create folder *test*, and create *pos*, *neg* in *test* with pictures that you want to retrive.~~
+~~2. Run `testQue.py` to query your picture set.~~
