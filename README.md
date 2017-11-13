@@ -6,6 +6,8 @@ This implementation currently only supports binary deep hash.
 
 Improvements will be updated soon in 2017-12.
 
+If you want contribute, feel free to pull request.
+
 # DEMO
 Deep hash for "A", "B".
 ![](https://raw.githubusercontent.com/xwzy/triplet-deep-hash-pytorch/master/demo_picture/a.jpeg)
