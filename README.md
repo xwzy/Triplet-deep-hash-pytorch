@@ -6,7 +6,7 @@ http://arxiv.org/abs/1603.02844
 # Update 2017.11.13
 Refactor this project.
 
-Use code in https://github.com/kentsommer/keras-inceptionV4 to extarct feature.
+Use code in https://github.com/kentsommer/keras-inceptionV4 to extract feature.
 
 
 # DEMO
