@@ -24,7 +24,7 @@ Deep hash for "A", "B".
 
 # Usage
 ## Train
-1. Put training pictures in `/train/[category-id]`, test pictures in `data/test`.
+1. Put training pictures in `train/[category-id]`, test pictures in `data/test`.
 2. Run `src/extract_feature/batch_extarct_test.py` and `src/extract_feature/batch_extract_train.py` to extract feature for future use.
 3. Run `src/hash_net/generate_random_dataset.py` to generate random training data.
 4. Run `src/hash_net/hashNet.py` to train your triplet deep hash network.
