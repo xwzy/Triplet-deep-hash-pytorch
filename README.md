@@ -2,6 +2,7 @@
 Pytorch implementation of "Fast Training of Triplet-based Deep Binary Embedding Networks".
 http://arxiv.org/abs/1603.02844
 
+Feel free to contribute code.
 
 # Update 2017.11.13
 Refactor this project.
